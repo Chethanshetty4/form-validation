@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+  
+  <form id="myform">
+    <div class="container-fluid" style ="margin-top: 20px; border: 1px solid black; padding: 50px;">
+      <div class="row" style="margin-top: 20px;">
+        <div class="col">
+          <input 
+          id="firstname" 
+          type="text" 
+          class="form-control"
+          placeholder="First name" 
+          aria-label="First name">
+          <div class="error"></div>
+        </div>
+        <div class="col">
+          <input 
+          id="lastname" 
+          type="text" 
+          class="form-control" 
+          placeholder="Last name" 
+          aria-label="Last name">
+          <div class="error"></div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="col">
+          <input 
+          id="email" 
+          type="email" 
+          class="form-control" 
+          placeholder="youremail@gmail.com">
+          <div class="error"></div>
+       </div>
+        <div class="col">
+          <input 
+          id="password" 
+          type="password" 
+          class="form-control" 
+          placeholder="password" 
+          aria-label="password">
+          <div class="error"></div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px; text-align: center;">
+        <div class="col">
+          <input 
+          id="btn" 
+          class="btn btn-primary"
+          type="submit" 
+          value="submit">
+        </div>
+      </div>
+    </div>
+  </form>
+  
+  <h3 id="status"></h3>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
