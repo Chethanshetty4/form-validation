@@ -19,7 +19,7 @@ button = getId('btn'),
 errMsg = getClasses('error'),
 sts = getId('status');
 
-form.style.backgroundColor = "#C2FABD";
+form.style.backgroundColor = "#E9FCE7";
 
 // console.log(errMsg);  //returns HTMLCollection(4) [div.error, div.error, div.error, div.error]
 
